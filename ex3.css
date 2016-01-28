@@ -1,0 +1,108 @@
+/*Tanya Rodman
+CSS for ex 3*/
+
+* {margin: 0; padding: 0;}
+
+body {
+    width: 900px;
+    margin: auto;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 10px;
+}
+
+header {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+    line-height: 50px;
+    text-align: center;
+    padding: 40px 0px 40px 0;
+    border-bottom: solid 1px grey;
+    margin-bottom: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+nav#sortMood {
+/*    I had to change width and padding left to align the "energy mood and confused buttons to the middle. for some reason, this was acting funny without the strange width and padding-left setting*/
+    width: 680px;
+    padding-left: 220px;
+    padding-top: 125px;
+}
+
+section h3 {
+    width: 130px;
+    text-align: center;
+    margin: 0px 10px 0px 10px;
+    font-family: 'Julius Sans One', sans-serif;
+    border-radius: 15px;
+    background-color: #e4e4e4;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding: 0px 0px 30px 0px;
+}
+
+h3 {
+    
+}
+
+section {
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+
+section img {
+    padding-bottom: 10px;
+    width: 60px;
+}
+
+article {
+    float: left;
+    position: relative;
+    margin-top: 40px;
+    width: 900px;
+    height: 50px;
+    margin-bottom: 50px;
+    padding-top:220px;
+}
+
+/*CIRCLES ON CIRCLES*/
+
+div{
+    float: left;
+    margin-left: 24px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+
+div.circleFreelance{
+    background-color: #dcedc8;
+}
+
+div.circlePlay {
+    background-color: #85d7d1;
+}
+
+div.circleErrands {
+    background-color: #2267ab;
+}
+
+div.circleSchool {
+    background-color: #1a237e;
+}
+
+article p#1 {
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+    background-color: black;
+    visibility: hidden;
+}
+
+
