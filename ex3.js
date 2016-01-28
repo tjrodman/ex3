@@ -32,7 +32,7 @@ $(document).ready(function(){
     //first function to add hover image
     $('img#all').attr('src','images/allS.png');
         console.log("hover");//check
-        $('p').css('visibility','visible');
+        
         //turn everything into their original color
         $('div.circleFreelance').css('background-color','#dcedc8');
         $('div.circlePlay').css('background-color','#85d7d1');
@@ -178,21 +178,20 @@ $(document).ready(function(){
         console.log('its true!');//check
         //swap 
         $('#all').replaceWith('<img src="images/allS.png" alt="Happy Face" id="all">');
+        $('p').css('visibility','visible');
     }else {console.log('its false!');//check
         $('#all').replaceWith('<img src="images/all.png" alt="Happy Face" id="all">');}
+        //$('p').css('visibility','hidden');
 });//end img#all click function
 
-//--------------------------MOODS
+
     
     
     
     
 //----------------------------------------TOOL TIP-----------------------
     //when you hover over each circle, it gives your more information
-    
-    //vars
-//    var leftP = 0;
-//    var space = 20;
+
     
     //1-------11:00
     $('div#f1').hover(function(){
