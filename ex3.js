@@ -188,10 +188,16 @@ $(document).ready(function(){
     
 //----------------------------------------TOOL TIP-----------------------
     //when you hover over each circle, it gives your more information
+    
+    //vars
+//    var leftP = 0;
+//    var space = 20;
+    
     //1-------11:00
     $('div#f1').hover(function(){
         console.log('on');
         $('article p#s1').css('visibility','visible');
+         
     }, function(){
         $('article p#s1').css('visibility','hidden');
         console.log('off');
@@ -201,15 +207,18 @@ $(document).ready(function(){
     $('div#f2').hover(function(){
         console.log('on');
         $('article p#s2').css('visibility','visible');
+        $('article p#s2').css('left','30px');
     }, function(){
         $('article p#s2').css('visibility','hidden');
         console.log('off');
     });
     
+
     //3-------11:30
      $('div#f3').hover(function(){
         console.log('on');
         $('article p#s3').css('visibility','visible');
+         $('article p#s3').css('left','75px');
     }, function(){
         $('article p#s3').css('visibility','hidden');
         console.log('off');
@@ -219,6 +228,7 @@ $(document).ready(function(){
      $('div#f4').hover(function(){
         console.log('on');
         $('article p#s4').css('visibility','visible');
+         $('article p#s4').css('left','120px');
     }, function(){
         $('article p#s4').css('visibility','hidden');
         console.log('off');
@@ -228,6 +238,7 @@ $(document).ready(function(){
      $('div#p1').hover(function(){
         console.log('on');
         $('article p#s5').css('visibility','visible');
+         $('article p#s5').css('left','160px');
     }, function(){
         $('article p#s5').css('visibility','hidden');
         console.log('off');
@@ -237,6 +248,7 @@ $(document).ready(function(){
      $('div#p2').hover(function(){
         console.log('on');
         $('article p#s6').css('visibility','visible');
+         $('article p#s6').css('left','200px');
     }, function(){
         $('article p#s6').css('visibility','hidden');
         console.log('off');
@@ -246,6 +258,7 @@ $(document).ready(function(){
      $('div#p3').hover(function(){
         console.log('on');
         $('article p#s7').css('visibility','visible');
+         $('article p#s7').css('left','250px');
     }, function(){
         $('article p#s7').css('visibility','hidden');
         console.log('off');
@@ -255,6 +268,7 @@ $(document).ready(function(){
      $('div#p4').hover(function(){
         console.log('on');
         $('article p#s8').css('visibility','visible');
+         $('article p#s8').css('left','295px');
     }, function(){
         $('article p#s8').css('visibility','hidden');
         console.log('off');
@@ -264,6 +278,7 @@ $(document).ready(function(){
      $('div#e1').hover(function(){
         console.log('on');
         $('article p#s9').css('visibility','visible');
+         $('article p#s9').css('left','3350px');
     }, function(){
         $('article p#s9').css('visibility','hidden');
         console.log('off');
