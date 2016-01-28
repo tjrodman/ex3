@@ -97,6 +97,26 @@ div.circleSchool {
     background-color: #1a237e;
 }
 
+footer {
+    position: absolute;
+    margin: 0;
+    width: 800px;
+    height: 20px;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+
+footer a:hover {
+    color: lightseagreen;
+}
+
 p {
     width: 100px;
     height: 50px;
@@ -107,11 +127,66 @@ p {
     font-size: 12px;
 }
 
-/*
-p#p1, p#p2, p#p3, p#p4, p#p5,  {
-    visibility: hidden;
+
+p#s2{
+    left: 30px;
 }
-*/
+p#s3{
+    left: 75px;
+} 
+p#s4{
+    left: 120px;
+} 
+p#s5{
+    left: 160px;
+} 
+p#s6{
+    left: 200px;
+} 
+p#s7{
+    left: 250px;
+} 
+p#s8{
+    left: 295px;
+} 
+p#s9{
+    left: 335px;
+} 
+p#s10{
+    left: 380px;
+} 
+p#s11{
+    left: 425px;
+} 
+p#s12{
+    left: 470px;
+} 
+p#s13{
+    left: 515px;
+} 
+p#s14{
+    left: 557px;
+} 
+p#s15{
+    left: 600px;
+} 
+p#s16{
+    left: 645px;
+} 
+p#s17{
+    left: 690px;
+} 
+p#s18{
+    left: 730px;
+} 
+p#s19{
+    left: 777px;
+} 
+p#s20 {
+    left: 820px;
+    
+}
+
 
 
 

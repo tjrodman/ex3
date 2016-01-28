@@ -32,6 +32,7 @@ $(document).ready(function(){
     //first function to add hover image
     $('img#all').attr('src','images/allS.png');
         console.log("hover");//check
+        $('p').css('visibility','visible');
         //turn everything into their original color
         $('div.circleFreelance').css('background-color','#dcedc8');
         $('div.circlePlay').css('background-color','#85d7d1');
@@ -207,7 +208,7 @@ $(document).ready(function(){
     $('div#f2').hover(function(){
         console.log('on');
         $('article p#s2').css('visibility','visible');
-        $('article p#s2').css('left','30px');
+        //$('article p#s2').css('left','30px');
     }, function(){
         $('article p#s2').css('visibility','hidden');
         console.log('off');
@@ -218,7 +219,7 @@ $(document).ready(function(){
      $('div#f3').hover(function(){
         console.log('on');
         $('article p#s3').css('visibility','visible');
-         $('article p#s3').css('left','75px');
+        // $('article p#s3').css('left','75px');
     }, function(){
         $('article p#s3').css('visibility','hidden');
         console.log('off');
@@ -228,7 +229,7 @@ $(document).ready(function(){
      $('div#f4').hover(function(){
         console.log('on');
         $('article p#s4').css('visibility','visible');
-         $('article p#s4').css('left','120px');
+       //  $('article p#s4').css('left','120px');
     }, function(){
         $('article p#s4').css('visibility','hidden');
         console.log('off');
@@ -238,7 +239,7 @@ $(document).ready(function(){
      $('div#p1').hover(function(){
         console.log('on');
         $('article p#s5').css('visibility','visible');
-         $('article p#s5').css('left','160px');
+         //$('article p#s5').css('left','160px');
     }, function(){
         $('article p#s5').css('visibility','hidden');
         console.log('off');
@@ -248,7 +249,7 @@ $(document).ready(function(){
      $('div#p2').hover(function(){
         console.log('on');
         $('article p#s6').css('visibility','visible');
-         $('article p#s6').css('left','200px');
+         //$('article p#s6').css('left','200px');
     }, function(){
         $('article p#s6').css('visibility','hidden');
         console.log('off');
@@ -258,7 +259,7 @@ $(document).ready(function(){
      $('div#p3').hover(function(){
         console.log('on');
         $('article p#s7').css('visibility','visible');
-         $('article p#s7').css('left','250px');
+       //  $('article p#s7').css('left','250px');
     }, function(){
         $('article p#s7').css('visibility','hidden');
         console.log('off');
@@ -268,7 +269,7 @@ $(document).ready(function(){
      $('div#p4').hover(function(){
         console.log('on');
         $('article p#s8').css('visibility','visible');
-         $('article p#s8').css('left','295px');
+      //   $('article p#s8').css('left','295px');
     }, function(){
         $('article p#s8').css('visibility','hidden');
         console.log('off');
@@ -278,7 +279,7 @@ $(document).ready(function(){
      $('div#e1').hover(function(){
         console.log('on');
         $('article p#s9').css('visibility','visible');
-         $('article p#s9').css('left','3350px');
+       //  $('article p#s9').css('left','335px');
     }, function(){
         $('article p#s9').css('visibility','hidden');
         console.log('off');
@@ -288,6 +289,7 @@ $(document).ready(function(){
      $('div#e2').hover(function(){
         console.log('on');
         $('article p#s10').css('visibility','visible');
+       //  $('article p#s10').css('left','380px');
     }, function(){
         $('article p#s10').css('visibility','hidden');
         console.log('off');
@@ -297,6 +299,7 @@ $(document).ready(function(){
      $('div#e3').hover(function(){
         console.log('on');
         $('article p#s11').css('visibility','visible');
+       //  $('article p#s11').css('left','425px');
     }, function(){
         $('article p#s11').css('visibility','hidden');
         console.log('off');
@@ -306,78 +309,87 @@ $(document).ready(function(){
      $('div#e4').hover(function(){
         console.log('on');
         $('article p#s12').css('visibility','visible');
+       //  $('article p#s12').css('left','470px');
     }, function(){
         $('article p#s12').css('visibility','hidden');
         console.log('off');
     });
     
-    //pl5--------1:15
+    //pl5-------2:00
      $('div#p5').hover(function(){
         console.log('on');
         $('article p#s13').css('visibility','visible');
+       //  $('article p#s13').css('left','515px');
     }, function(){
         $('article p#s13').css('visibility','hidden');
         console.log('off');
     });
     
-    //pl6--------1:15
+    //pl6--------2:15
      $('div#p6').hover(function(){
         console.log('on');
         $('article p#s14').css('visibility','visible');
+       //  $('article p#s14').css('left','557px');
     }, function(){
         $('article p#s14').css('visibility','hidden');
         console.log('off');
     });
     
-    //sc1--------1:15
+    //sc1--------2:30
      $('div#sc1').hover(function(){
         console.log('on');
         $('article p#s15').css('visibility','visible');
+       //  $('article p#s15').css('left','600px');
     }, function(){
         $('article p#s15').css('visibility','hidden');
         console.log('off');
     });
     
-    //sc2--------1:30
+    //sc2--------2:45
      $('div#sc2').hover(function(){
         console.log('on');
         $('article p#s16').css('visibility','visible');
+     //    $('article p#s16').css('left','645px');
     }, function(){
         $('article p#s16').css('visibility','hidden');
         console.log('off');
     });
     
-    //sc3--------1:45
+    //sc3--------3:00
      $('div#sc3').hover(function(){
         console.log('on');
         $('article p#s17').css('visibility','visible');
+      //   $('article p#s17').css('left','690px');
     }, function(){
         $('article p#s17').css('visibility','hidden');
         console.log('off');
     });
     
-    //sc4--------1:30
+    //sc4--------3:15
      $('div#sc4').hover(function(){
         console.log('on');
         $('article p#s18').css('visibility','visible');
+     //    $('article p#s18').css('left','730px');
     }, function(){
         $('article p#s18').css('visibility','hidden');
         console.log('off');
     });
     
-    //sc5--------1:30
+    //sc5--------3:30
      $('div#sc5').hover(function(){
         console.log('on');
         $('article p#s19').css('visibility','visible');
+      //   $('article p#s19').css('left','777px');
     }, function(){
         $('article p#s19').css('visibility','hidden');
         console.log('off');
     });
     
-    //pl7--------1:30
+    //pl7--------3:45
      $('div#p7').hover(function(){
         console.log('on');
         $('article p#s20').css('visibility','visible');
+     //    $('article p#s20').css('left','820px');
     }, function(){
         $('article p#s20').css('visibility','hidden');
         console.log('off');
