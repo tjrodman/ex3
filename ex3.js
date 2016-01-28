@@ -184,28 +184,188 @@ $(document).ready(function(){
 //--------------------------MOODS
     
     
+    
+    
 //----------------------------------------TOOL TIP-----------------------
     //when you hover over each circle, it gives your more information
+    //1-------11:00
     $('div#f1').hover(function(){
         console.log('on');
-        $('article p#1').css('visibility','visible');
+        $('article p#s1').css('visibility','visible');
     }, function(){
-        $('article p#1').css('visibility','hidden');
+        $('article p#s1').css('visibility','hidden');
         console.log('off');
     });
     
-    //USING SEPARATE FUNCTIONS ^^
-//    $('div#f1').mouseenter(function(){
-//        console.log('aside');
-//        $('p#1').show();
-//    });
-//    $('div#f1').mouseleave(function(){
-//        $('p#1').hide();
-//        console.log('hide aside');
-//    });
-
-//---------------------------BOX-----
+    //2-------11:15
+    $('div#f2').hover(function(){
+        console.log('on');
+        $('article p#s2').css('visibility','visible');
+    }, function(){
+        $('article p#s2').css('visibility','hidden');
+        console.log('off');
+    });
     
+    //3-------11:30
+     $('div#f3').hover(function(){
+        console.log('on');
+        $('article p#s3').css('visibility','visible');
+    }, function(){
+        $('article p#s3').css('visibility','hidden');
+        console.log('off');
+    });
     
+    //4-------11:45
+     $('div#f4').hover(function(){
+        console.log('on');
+        $('article p#s4').css('visibility','visible');
+    }, function(){
+        $('article p#s4').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //play1-------12:00
+     $('div#p1').hover(function(){
+        console.log('on');
+        $('article p#s5').css('visibility','visible');
+    }, function(){
+        $('article p#s5').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //pl2-------12:15
+     $('div#p2').hover(function(){
+        console.log('on');
+        $('article p#s6').css('visibility','visible');
+    }, function(){
+        $('article p#s6').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //pl3-------12:30
+     $('div#p3').hover(function(){
+        console.log('on');
+        $('article p#s7').css('visibility','visible');
+    }, function(){
+        $('article p#s7').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //pl4-------12:45
+     $('div#p4').hover(function(){
+        console.log('on');
+        $('article p#s8').css('visibility','visible');
+    }, function(){
+        $('article p#s8').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //e1-------1:00
+     $('div#e1').hover(function(){
+        console.log('on');
+        $('article p#s9').css('visibility','visible');
+    }, function(){
+        $('article p#s9').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //e2--------1:15
+     $('div#e2').hover(function(){
+        console.log('on');
+        $('article p#s10').css('visibility','visible');
+    }, function(){
+        $('article p#s10').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //e3--------1:30
+     $('div#e3').hover(function(){
+        console.log('on');
+        $('article p#s11').css('visibility','visible');
+    }, function(){
+        $('article p#s11').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //e3--------1:45
+     $('div#e4').hover(function(){
+        console.log('on');
+        $('article p#s12').css('visibility','visible');
+    }, function(){
+        $('article p#s12').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //pl5--------1:15
+     $('div#p5').hover(function(){
+        console.log('on');
+        $('article p#s13').css('visibility','visible');
+    }, function(){
+        $('article p#s13').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //pl6--------1:15
+     $('div#p6').hover(function(){
+        console.log('on');
+        $('article p#s14').css('visibility','visible');
+    }, function(){
+        $('article p#s14').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //sc1--------1:15
+     $('div#sc1').hover(function(){
+        console.log('on');
+        $('article p#s15').css('visibility','visible');
+    }, function(){
+        $('article p#s15').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //sc2--------1:30
+     $('div#sc2').hover(function(){
+        console.log('on');
+        $('article p#s16').css('visibility','visible');
+    }, function(){
+        $('article p#s16').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //sc3--------1:45
+     $('div#sc3').hover(function(){
+        console.log('on');
+        $('article p#s17').css('visibility','visible');
+    }, function(){
+        $('article p#s17').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //sc4--------1:30
+     $('div#sc4').hover(function(){
+        console.log('on');
+        $('article p#s18').css('visibility','visible');
+    }, function(){
+        $('article p#s18').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //sc5--------1:30
+     $('div#sc5').hover(function(){
+        console.log('on');
+        $('article p#s19').css('visibility','visible');
+    }, function(){
+        $('article p#s19').css('visibility','hidden');
+        console.log('off');
+    });
+    
+    //pl7--------1:30
+     $('div#p7').hover(function(){
+        console.log('on');
+        $('article p#s20').css('visibility','visible');
+    }, function(){
+        $('article p#s20').css('visibility','hidden');
+        console.log('off');
+    });
     
 });//end main
